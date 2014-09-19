@@ -3,7 +3,7 @@ A URl parameter is a variable whose values are set dynamically in a page's URL, 
 
 So what does that look like? Let's say you go to Google and search for `penguins`. When your search results pop up, the url looks something like this: `https://www.google.com/?gws_rd=ssl#q=penguins`. Notice that the word I searched for is now in the URL. It's actually even stored in a variable, `q=penguins`. In this case, Google is expecting a user to enter a value for their search item, which for every Google search will be stored in the variable `q`. If I searched for `cupcakes`, I would see `q=cupcakes`. The parameter here is `q`.
 
-In order for Google to actually take the `q` variable and display search results, it has to be able to do something with it in the backend. When a URL parameter gets to the backend, it's transformed into a hash of the name `params`. That `q` variable then becomes a key. It's the exact same process that happens with a dynamic url. It looks something like this:
+In order for Google to actually take the `q` variable and display search results, it has to be able to do something with it in the backend. When a URL parameter gets to the backend, it's transformed into a hash of the name `params`. That `q` variable then becomes a key in that params hash. It's the exact same process that happens with a dynamic url. It looks something like this:
 
 ```ruby
 params = {:q => "penguins"}

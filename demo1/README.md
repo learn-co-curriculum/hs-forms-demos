@@ -9,9 +9,10 @@ How does Twitter post your tweets? How does facebook upload your photos? How doe
 
 Web applications use the URL to pass information from the frontend to the backend. 
 
-One way to do this, is by dynamic urls. A dynamic url is a url comprised of two things: a static part and a dynamic part. The dynamic part of the url changes based on whatever a user types, meaning they want different content to load on the page.
+One way to do this, is by dynamic urls. A dynamic url is a url comprised of two things: a static component and a dynamic component. The static component of a URl are parts like `www.google.com`. The dynamic part of the url changes based on an action a user takes in order for a specific page to load. This action can be clicking a link, or like in this lab, manually changing the URL.
 
-WHY DO YOU USE THIS: RESTFUL ROUTES
+If you think dynamic routes are super interesting and would love to learn more check out the `ROUTES_README.md` in the `demo1` directory.
+
 
 ###Let's try a simple example
 
@@ -25,8 +26,8 @@ The controller then transfers that information into a params hash:
 params = {:name => "vanessa"}
 ```
 
-I can access that value just like a hash: `params[:name]`.
+We can access that value just like a hash: `params[:name]`.
 
-Try booting up your localhost server and playing around with different names in the address bar. In the body of the page, you should see `Hey there name_you_entered_in_address_bar`.
+Try booting up your localhost server and playing around with different names in the address bar in the place of `:name`. In the body of the page, you should see `Hey there name_you_entered_in_address_bar`.
 
-In order to start this application, in terminal enter `ruby demo1.rb`. You'll want to look for the port number once the server starts and in your browser go to `localhost:port_number`
+In order to start this application, in terminal enter `ruby demo1.rb`. You'll want to look for the port number once the server starts and in your browser go to `localhost:port_number`.
