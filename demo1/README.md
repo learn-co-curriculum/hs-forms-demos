@@ -12,7 +12,7 @@ If you think dynamic routes are super interesting and would love to learn more c
 
 In `demo1.rb` we've set up a basic Sinatra controller. You can see we have a get request, but that route name looks a little funny. Whats up with that `:name`? In this example, we're setting up `:name` to be a dynamic value. When you have a symbol in your route, you're expecting a value from your user.
 
-In this case, the controller expecting `:name` to change based on whatever name we feel like typing. In the browser address bar I can enter `localhost:4567/hello/vanessa`.
+In this case, the controller is expecting `:name` to change based on whatever name we feel like typing. In the browser address bar I can enter `localhost:4567/hello/vanessa`.
 
 The controller then transfers that information into a params hash:
 
