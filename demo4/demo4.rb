@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'sinatra'
-require 'shotgun'
 require_relative 'lib/penguin.rb'
 
 get '/' do 
