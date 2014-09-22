@@ -6,7 +6,7 @@ When we submit the form we are submitting the information to the controller thro
 
 In `demo3.rb` we have both a get request (to display the form) and a post request to take in and show the information that is being submitted via the form. Once our controller takes in the information from the form it then displays it at `localhost:4567/results`.
 
-Now take a look at `index.erb` in the views folder. It starts out with a form tag that has two attributes: a method and action. The `method` attribute stores the type of http request that we are making - in this case it is a post request. The `action` attribute stores the appropriate route for the post request. When the form is submitted it will connect with the method in the controller that corresponds to these two attributes. In this case a `post "/results"` method. 
+Now take a look at `index.erb` in the views folder. It starts out with a form tag that has two attributes: a **method** and **action**. The `method` attribute stores the type of http request that we are making - in this case it is a post request. The `action` attribute stores the appropriate route for the post request. When the form is submitted it will connect with the method in the controller that corresponds to these two attributes. In this case a `post "/results"` method. 
 
 The next part of the form is an input tag. The `type` attribute of the input tag stores the type of information that is being submitted. The `name` attribute stores the name of the variable where this information will be stored. So if this form was filled out by a user and submitted with the species "Emperor" the value that would be submitted to the back end of our application via a params hash looks like this:
 
