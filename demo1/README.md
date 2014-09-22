@@ -3,7 +3,7 @@ How does Twitter post your tweets? How does facebook upload your photos? How doe
 
 Web applications use the URL to pass information from the frontend to the backend. 
 
-One way to do this is by using dynamic urls. A dynamic url is a url comprised of two things: a static component and a dynamic component. The static component of a URl are parts like `www.google.com`. The dynamic part of the url changes based on an action a user takes in order for a specific page to load. This action can be clicking a link, or like in this lab, manually changing the URL.
+One way to do this is by using dynamic urls. A dynamic url is a url comprised of two things: a static component and a dynamic component. The static components of a URL are parts like `www.google.com`. The dynamic part of the url changes based on an action a user takes in order for a specific page to load. This action can be clicking a link, or like in this lab, manually changing the URL.
 
 If you think dynamic routes are super interesting and would love to learn more check out the `ROUTES_README.md` in the `demo1` directory.
 
