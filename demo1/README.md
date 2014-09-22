@@ -1,9 +1,3 @@
----
-tags: parameters, ruby, sinatra, routes, kids
-languages: ruby
-level: 3
----
-
 ##Dynamic URLs
 How does Twitter post your tweets? How does facebook upload your photos? How does tumblr air your most secret guilty pleasures? All of these web applications take in information from a user, mutate that information, and then display it back to them. 
 
