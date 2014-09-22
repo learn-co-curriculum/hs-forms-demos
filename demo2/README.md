@@ -19,7 +19,7 @@ params[:q]
 
 In `demo2.rb` We've created a route called `/hello`. We no longer have `/:name` in our route, so how can we have any params to pass to our views? We don't have a place for a user to enter any input.
 
-A url parameter is still a dynamic component of a url. We just type it a little different. Let's say we wanted to get `hey there vanessa` to print in our view, just like we did with a dynamic url. We can't just type `localhost:hello/vanessa`. We'll get a 404 page not found. The key to the hash is not set up in the controller, so we need to do something similar to what we saw in the google url. Something like this:  `localhost:hello?name=vanessa`. The question mark indicates that url parameters will be passed in. 
+A url parameter is still a dynamic component of a url. We just type it a little different. Let's say we wanted to get `hey there vanessa` to print in our view, just like we did with a dynamic url. We can't just type `localhost:hello/vanessa`. We'll get a 404 page not found. The key to the hash is not set up in the controller, so we need to do something similar to what we saw in the google url. Something like this:  `localhost:hello?name=vanessa`. **The question mark indicates that url parameters will be passed in.**
 
 ###Challenge
 1. Boot up your localhost by running `ruby demo2.rb` and use your browser to try out the get request that is already set up in the controller. Say hello to yourself. Say hello to someone else. Get crazy. 

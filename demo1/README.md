@@ -24,7 +24,7 @@ The controller then transfers that information into a params hash:
 params = {:name => "vanessa"}
 ```
 
-We can access that value just like a hash: `params[:name]`.
+We can access that value in our controller just like a hash: `params[:name]`.
 
 Try booting up your localhost server and playing around with different names in the address bar in the place of `:name`. In the body of the page, you should see `Hey there name_you_entered_in_address_bar`.
 
