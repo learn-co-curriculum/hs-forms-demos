@@ -25,6 +25,7 @@ params = {:name => "vanessa"}
 
 We can access that value in our controller just like a hash: `params[:name]`.
 
-Try booting up your localhost server and playing around with different names in the address bar in the place of `:name`. In the body of the page, you should see `Hey there name_you_entered_in_address_bar`.
+Try booting up your localhost server (in terminal enter `ruby demo1.rb`) and playing around with different names in the address bar in the place of `:name`. You'll want to look for the port number once the server starts and in your browser go to `localhost:port_number/hello/<your name>`. In the body of the page, you should see `Hey there name_you_entered_in_address_bar`.
 
-In order to start this application, in terminal enter `ruby demo1.rb`. You'll want to look for the port number once the server starts and in your browser go to `localhost:port_number`.
+Try out different names and see what happens.
+
