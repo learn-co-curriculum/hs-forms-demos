@@ -1,8 +1,8 @@
 ###URL params plus input forms
 
-Users can submit information to the backend via the address bar in their browser but that's not a very user friendly model. We're more used to interacting with web applications by clicking buttons and typing in information that we want posted on the internet. When we type in information that we want to post we are filling out forms. Forms are created using HTML form and input tags.
+Users can submit information to the backend of an application via the address bar in their browser but that's not a very user friendly model. We're more used to interacting with web applications by clicking buttons and typing in information that we want posted on the internet. When we type in information that we want to post we are filling out forms. Forms are created using HTML form and input tags.
 
-When we submit the form we are submitting the information to the controller through a new type of HTTP request called POST. We use this naming convention to reflect the fact that we are posting information to the site (as opposed to getting information).
+When we submit the form we are submitting the information to the controller through a new type of HTTP request called POST. We use this naming convention to reflect the fact that we are posting information to the site (as opposed to getting information from the site).
 
 In `demo3.rb` we have both a get request (to display the form) and a post request to take in and show the information that is being submitted via the form. Once our controller takes in the information from the form it then displays it at `localhost:4567/results`.
 
