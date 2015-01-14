@@ -2,7 +2,7 @@
 
 How does Twitter post your tweets? How does facebook upload your photos? How does tumblr air your most secret guilty pleasures? All of these web applications take in information from a user, mutate that information, and then display it back to the user. 
 
-Web applications use the URL to pass information from the frontend to the backend. 
+Web applications sometimes use the URL to pass information from the frontend to the backend. 
 
 One way to do this is by using dynamic urls. A dynamic url is a url comprised of two things: a static component and a dynamic component. The static components of a URL are parts like `www.pinterest.com`. The dynamic part of the url changes based on an action a user takes in order for a specific page to load. This action can be clicking a link, or like in this lab, manually changing the URL. 
 
