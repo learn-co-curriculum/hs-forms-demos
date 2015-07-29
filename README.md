@@ -1,8 +1,4 @@
----
-tags: parameters, ruby, sinatra, routes, kids, forms, html
-languages: ruby, html
-level: 3
----
+
 
 ##Using Forms with Sinatra
 
